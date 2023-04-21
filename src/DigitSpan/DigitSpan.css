@@ -1,0 +1,101 @@
+.grey-background {
+  width: max(100%, 100vw);
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: #bfc0c2;
+}
+
+.Stroop-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.DigitSpan-number {
+  margin-top: 20vh;
+  font-size: 5em;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.digitSpan-progress-bar {
+  width: 100%;
+  margin-top: 8vh;
+}
+
+.digitSpan-progress-bar-true {
+  visibility: hidden;
+}
+
+.digitSpan-input {
+  width: 100%;
+  height: 3rem;
+  border:none;
+  margin-top: 5vh;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.DigitSpan-input-box {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  border: 0.3rem black solid;
+  pointer-events: none;
+  color: black;
+}
+
+.DigitSpan-buttons {
+  border-top: black 0.2rem solid;
+  border-bottom: black 0.2rem solid;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-top: 3vh;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .DigitSpan-buttons {
+      transform: translateY(5rem);
+  }
+}
+
+.DigitSpan-button {
+  width: 2.2vw;
+  height: 2.2vw;
+  min-width: 2.2rem;
+  min-height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #ffffff;
+}
+.DigitSpan-button:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.DigitSpan-button-false {
+  pointer-events: none;
+}
+.DigitSpan-button-false:hover {
+  transform: scale(1);
+  cursor: auto;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}

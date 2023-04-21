@@ -1,0 +1,17 @@
+{
+  "Stroop": {
+    "Title": "Test de Stroop",
+    "Description" : "Le test de Stroop est un test où une succession de mots apparaîtra à l'écran. Chaque mot représente une couleur alors qu'il est lui-même autrement coloré.",
+    "Action" : "Votre tâche est de sélectionner la couleur d'écriture du mot en sélectionnant, en bas, le carré qui lui correspond."
+  },
+  "Corsi": {
+    "Title": "Test de Corsi",
+    "Description" : "Le test de Corsi est un test où des carrés s'illumineront tour à tour sur votre écran. Il y aura 9 séquences différentes et le nombre de carrés ira en augmentant.",
+    "Action" : "Votre tâche est de sélectionner, en ordre, les carrés qui se sont illuminés à la fin de chaque séquence."
+  },
+  "DigitSpan": {
+    "Title": "Test de Digit Span",
+    "Description" : "Le test de Digit Span est un test où des chiffres apparaîtront tour à tour sur votre écran. Il y aura 9 séquences différentes et le nombre de chiffres ira en augmentant.",
+    "Action" : "Votre tâche est de sélectionner, en ordre, les chiffres qui sont apparus à la fin de chaque séquence."
+  }
+}
